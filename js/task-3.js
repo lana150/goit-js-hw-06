@@ -1,10 +1,10 @@
 class StringBuilder {
+
+  #value;
   
   constructor(initialValue) {
     this.#value = initialValue;
   }
-
-  #value;
 
   getValue() {
     return this.#value;
